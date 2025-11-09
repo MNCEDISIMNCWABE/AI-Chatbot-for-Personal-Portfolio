@@ -69,7 +69,18 @@ The GitHub Actions workflow automatically:
 - Manages environment variables securely
 
 In your javascript file add the API endpoint from cloud run to query the FastAPI backend that processes questions against your precomputed embeddings and returns AI-generated responses about your portfoli:
-
-<img width="687" height="450" alt="image" src="https://github.com/user-attachments/assets/a0aaaee5-a4d4-4a7a-b972-be348a7f7f8e" />
+```
+// Send query to FastAPI backend - replace with your actual Cloud Run URL
+fetch('https://portfolio-qa-41469873708.us-central1.run.app/query', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+        question: messageText,
+        format_type: 'html',
+    }),
+})
+```
 
 

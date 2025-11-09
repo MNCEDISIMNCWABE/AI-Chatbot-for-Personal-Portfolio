@@ -30,8 +30,8 @@ The AI chatbot can answer questions about:
 - Contact details
 - Testimonials I received from previous or current collegues
 
-How to setup 
 
+### How to setup 
 ```
 PROJECT_ID=your-GCP-project
 EMBEDDING_MODEL=text-embedding-large-exp-03-07

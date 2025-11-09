@@ -29,7 +29,7 @@ The AI chatbot can answer questions about:
 - Degrees, institutions, certifications
 - Blog posts I've written
 - Contact details
-- Testimonials I received from previous or current collegues
+- Testimonials I received from previous or current colleagues
 
 
 ### How to setup 

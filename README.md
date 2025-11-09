@@ -20,3 +20,12 @@ I built and deployed this FastAPI backend that powers an intelligent AI chatbot 
 <img width="1333" height="822" alt="image" src="https://github.com/user-attachments/assets/9364982c-e2cf-45ef-b88e-fe831c515f1c" />
 
 
+### Content Coverage
+The AI chatbot can answer questions about:
+- Professional experience such as current role, past positions, achievements
+- Technical skills such as programming languages, frameworks, tools
+- Detailed project descriptions, technologies used, outcomes
+- Degrees, institutions, certifications
+- Blog posts I've written
+- Contact details
+- Testimonials I received from previous or current collegues

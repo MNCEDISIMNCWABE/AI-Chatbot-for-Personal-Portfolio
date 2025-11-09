@@ -52,10 +52,10 @@ HTML_FILE_PATH=./index.html # Your website's index.html file
 GCS_BUCKET_NAME=YOUR-GCS-BUCKET-NAME
 ```
 3. Create and store embeddings: ```python embeddings/create_embeddings.py```
-- HTML content extraction and parsing
-- Document chunking and processing
-- Precomputed vector embedding generation
-- GCS persistence for ChromaDB
+  - HTML content extraction and parsing
+  - Document chunking and processing
+  - Precomputed vector embedding generation
+  - GCS persistence for ChromaDB
   
 4. Run the app : ```python model/app.py```
    - Similarity search against pre-existing vectors

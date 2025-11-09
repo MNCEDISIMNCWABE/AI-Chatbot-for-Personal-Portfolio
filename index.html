@@ -1,0 +1,82 @@
+<!--  NB: THIS IS NOT MY ACTUAL website's html, it's just for showcasing. You can add your own -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Professional Profile</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Sidebar with professional info -->
+    <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+            <h1 class="name">Your Name Here</h1>
+            <p class="title">Your Professional Title</p>
+        </div>
+        
+        <!-- More sidebar content would go here -->
+    </aside>
+
+    <main>
+        <!-- About Section -->
+        <section class="about-text">
+            <p>Professional background and experience summary...</p>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="timeline">
+            <li class="timeline-item">
+                <h4 class="timeline-item-title">Current Position</h4>
+                <span>2023 - Present</span>
+                <ul>
+                    <li>Achievement 1</li>
+                    <li>Achievement 2</li>
+                </ul>
+            </li>
+            <!-- More experience items -->
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <div class="skill-category">
+                <h4 class="category-title">Technical Skills</h4>
+                <ul>
+                    <li class="skill-item">Python</li>
+                    <li class="skill-item">Machine Learning</li>
+                    <!-- More skills -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <article class="projects">
+            <li class="project-item">
+                <h3 class="project-title">Project Name</h3>
+                <p class="project-category">Project description and technologies used...</p>
+            </li>
+            <!-- More projects -->
+        </article>
+
+        <!-- Chatbot Interface -->
+        <div class="chatbot-container">
+            <button id="chatbot-toggle" class="chatbot-toggle">💬 Ask AI</button>
+            <div id="chatbot-window" class="chatbot-window">
+                <div class="chatbot-header">
+                    <h3>Portfolio Assistant</h3>
+                    <button id="chatbot-close" class="chatbot-close">×</button>
+                </div>
+                <div id="chatbot-messages" class="chatbot-messages">
+                    <div class="chat-message ai">Hello! I can answer questions about my experience, skills, and projects. What would you like to know?</div>
+                </div>
+                <div class="chatbot-input">
+                    <input type="text" id="chatbot-input-field" placeholder="Ask about my experience...">
+                    <button id="chatbot-send">Send</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

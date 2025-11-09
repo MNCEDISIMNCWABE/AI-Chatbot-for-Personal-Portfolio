@@ -1,0 +1,10 @@
+.git
+.gitignore
+README.md
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+myenv/
+chroma_db/

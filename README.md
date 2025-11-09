@@ -29,3 +29,15 @@ The AI chatbot can answer questions about:
 - Blog posts I've written
 - Contact details
 - Testimonials I received from previous or current collegues
+
+How to setup 
+
+```
+PROJECT_ID=your-GCP-project
+EMBEDDING_MODEL=text-embedding-large-exp-03-07
+LLM_MODEL=gemini-2.5-pro
+PERSIST_DIRECTORY=./chroma_db
+GOOGLE_APPLICATION_CREDENTIALS=/app/credentials.json
+HTML_FILE_PATH=./index.html
+GCS_BUCKET_NAME=your-gcs-buket-name
+```

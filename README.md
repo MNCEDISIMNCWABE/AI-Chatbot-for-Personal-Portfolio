@@ -71,7 +71,7 @@ The GitHub Actions workflow automatically:
 In your javascript file add the API endpoint from cloud run to query the FastAPI backend that processes questions against your precomputed embeddings and returns AI-generated responses about your portfolio:
 ```
 // Send query to FastAPI backend - replace with your actual Cloud Run URL
-fetch('https://portfolio-qa-41469873708.us-central1.run.app/query', {
+fetch('https://YOUR-CLOUD-RUN-API-ENDPOINT.run.app/query', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
